@@ -1,0 +1,278 @@
+
+
+body {
+  background: url('../images/OBJETOS/fondo.jpg') center center fixed;
+  background-size: 100% 100%;    
+}
+
+/* seccion popup */
+
+.mpopup {
+  padding-top: 100px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.mpopup-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width:25%;
+  height:auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+
+.mpopup-head {
+padding:20px 8px;
+background-color: rgb(0, 214, 199);
+color: white;
+font-family: 'Muli', sans-serif;
+font-weight:600px;
+text-align: center;  
+letter-spacing: .3px;
+font-size:25px;
+}
+
+
+.mpopup-foot {
+  padding: 2px 8px;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+
+#imgFondoGanador{
+ width: 50%;
+}
+
+#popUpGanador{
+  position: relative;
+  top:5em;
+  margin: auto;
+}
+
+
+#colgante{  
+  display:none;
+  width:30em;
+  height:30em;
+ }
+
+ #canasta{
+  position: relative;
+  top:4em;
+  display:none;
+  width:20em;
+  height:20em;
+ }
+
+ #tituloAprendizajeFrutas{
+  width:400px;
+  height:125px; 
+ }
+
+
+#btnEvaluar{
+display:none;
+position: relative;
+top:10em;
+}
+
+#despedida{
+  display:none;
+  width:50%;
+  height:50%;
+}
+
+
+#containerFrutas{
+  position: relative;
+  top:4em; 
+  }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 300;
+}
+p {
+  font-size: 15px;
+  line-height: 28px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none !important;
+}
+
+/*--	Header --*/
+
+ #logo{
+    width: 210px;
+    height: 60px;
+    }   
+
+#btnIniciar{
+position: relative;
+top:3em;
+display:block;
+}
+
+#cerrar{
+  width:2em;
+  height:1.7em;
+  z-index:50; 
+}
+
+#btnEva{
+position:relative;
+top:-15em;
+width:9em;
+height:4.3em;
+display:block;
+}
+
+#btnJugar{
+  position: relative;
+  top:-10em;
+  width:8em;
+  height:6em;
+  display:block;
+  }  
+     
+
+#tituloIntro{
+width:450px;
+height:100px;
+}
+
+#tituloAprendizaje{
+position: relative;
+top:3em;
+width:450px;
+height:100px;
+}
+
+#seccionIntro {
+  position: relative;
+  top:8em;
+  height:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#seccionAprendizaje{
+  display:none;
+  height:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#seccionEvaluacion{
+  position: relative;
+  top:2em;  
+  width: auto;
+  height: auto;
+}
+
+.seccionPreguntas{
+  width:20em;
+}
+
+
+.frutas{
+width:5em;
+height:5em;
+}
+
+.espacioPreg{
+  position: relative;
+  top:-0.3em;
+}
+
+#seccionPreg1{  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+
+#seccionPreg2{
+display:none;
+height:auto;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#seccionPreg3{
+  display:none;
+  height:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+  
+#rotEva{  
+  width:450px;
+  height:100px; 
+}
+
+#rotPuntaje{
+  width:200px;
+  height:75px; 
+}
+
+#imgJuego{  
+  width:75%;
+  height:85%;
+}
+
+#imgJuegoInicio{
+  width:75%;
+  height:50%;
+}
+#btnSiguientePregunta{
+  position: relative;
+  top:3em;
+  width:8em;
+  height:6em;
+  display:block; 
+  } 
+    
+

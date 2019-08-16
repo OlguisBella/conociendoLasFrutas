@@ -1,0 +1,7 @@
+{
+  "frutas": [
+  {"nombre":"cereza.png","id":"cereza","color":"rojo brillante", "forma":"circular"},
+  {"nombre":"guineo.png","id":"guineo","color":"amarillo", "forma":"alargada"},
+  {"nombre":"manzana.png","id":"manzana","color":"rojo", "forma":"redondeada"} 
+]
+}

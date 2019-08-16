@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Proyecto Script</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">     
+    <script type="text/javascript" src="js/jquery.js"></script> 
+   </head>
+   
+<body>
+<div class="container">
+<!--Logo-->
+ <header><!-- Cabecera del sitio: Menú del juego-->
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+               <a href="index.html"><img class="img-fluid" id="logo" src="images/BOTONES/logo.png" alt="Logo"> </a>
+            </div>           
+          </div>
+        </nav>
+  </header>
+
+<audio src="audio/intro.mp3" autoplay type="audio/mpeg"></audio>      
+<audio src="audio/iniciar.mp3" autoplay type="audio/mpeg"></audio>   
+  
+
+ <!-- Pop up para Instrucciones-->
+
+ <div id="instrucmpopupBox" class="mpopup">
+    <div class="mpopup-content">
+        <div class="mpopup-head">            
+          <a href="#" class="close">x</a>         
+        </div>
+       <center><img class="img-fluid" src="images/OBJETOS/Instrucciones.png"></center> 
+    </div>
+</div>
+     
+    <section id="seccionIntro">
+    <center>
+        <div class="container">    
+          <div class="row"> 
+           <div class="col-lg-12">
+            <img class="img-fluid" src="images/ROTULOS/rotIniciar.png" id="tituloIntro">
+           </div>  
+           <div class="col-lg-12">
+            <a href="#"><img class="img-fluid" src="images/BOTONES/INICIAR.png" id="btnIniciar"></a>                
+          </div>       
+        </div> 
+        </div>     
+           
+      </center>
+    </section> 
+
+<!--Seccion de Juego-->
+
+  <section id="seccionAprendizaje">
+          <center> 
+          <div class="container">                 
+            <img class="img-fluid col-lg-12" src="images/ROTULOS/rotAprender.png" id="tituloAprendizaje">
+              <div class="row">    
+        
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6" id="containerFrutas"></div>
+                <div class="col-lg-3"></div>
+              </div>              
+                 
+                <div class="col-lg-12 mx-auto">        
+                    <img class="img-fluid" id="colgante">                   
+                </div>  
+                
+                <div class="row"> 
+                  <div class="col-lg-2"></div>                                       
+                <div class="col-lg-4">  
+                  <img class="img-fluid" src="images/OBJETOS/canastaLlena.png" id="canasta">                
+                </div>          
+                <div class="col-lg-4">
+                <a href="./pages/evaluacion.html"><img class="img-fluid" src="images/BOTONES/EVALUAR.png" id="btnEvaluar"></a>      
+                </div> 
+                <div class="col-lg-2"></div>
+              </div>   
+                </div>       
+              </div>        
+      </center>  
+</section>       
+        
+       <script src="js/main.js"></script>    
+       <script src="js/bootstrap.js"></script>
+       <script src="js/bootstrap.min.js"></script>     
+           
+   </body>
+</html>
